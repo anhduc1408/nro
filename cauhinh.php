@@ -7,12 +7,6 @@ $_tenmaychu = 'Ngọc Rồng Green'; // Tên máy chủ hiển thị ở cuối 
 $_mienmaychu = 'nrogreen.site';
 
 
-// MySQL
-$db_host = "localhost";
-$db_user = "root";
-$db_pass = "";
-$db_name = "nro";
-
 
 // PHIÊN BẢN FILE GAME
 $_android = '2.3.0';
