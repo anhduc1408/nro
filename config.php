@@ -1,6 +1,6 @@
 <?php
 include_once 'cauhinh.php';
-$mysqli =	;
+$mysqli = mysqli_init();
 
 mysqli_ssl_set($mysqli, NULL, NULL, NULL, NULL, NULL);
 
