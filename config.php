@@ -37,10 +37,6 @@ function _delete($table, $condition)
 	global $conn;
 	mysqli_query($conn, "DELETE FROM $table WHERE $condition");
 }
-function show_alert($alert)
-{
-	echo '<div class="' . $alert[0] . '">' . $alert[1] . '</div>';
-}
 
 function _num_rows($result)
 {
