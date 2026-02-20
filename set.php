@@ -1,4 +1,4 @@
-<?php// Kiểm tra và khởi động phiên làm việc nếu chưa được khởi động
+<?php
 if (session_status() == PHP_SESSION_NONE) {
 	session_start();
 }
