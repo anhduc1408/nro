@@ -1,11 +1,11 @@
-<?php
-include_once 'config.php';
-date_default_timezone_set('Asia/Ho_Chi_Minh');
-
-// Kiểm tra và khởi động phiên làm việc nếu chưa được khởi động
+<?php// Kiểm tra và khởi động phiên làm việc nếu chưa được khởi động
 if (session_status() == PHP_SESSION_NONE) {
 	session_start();
 }
+
+include_once 'config.php';
+date_default_timezone_set('Asia/Ho_Chi_Minh');
+
 
 
 $_login = isset($_login) ? $_login : null;

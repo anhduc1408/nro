@@ -49,7 +49,7 @@ include('head.php');
                 <p style="color:red;text-align:center;margin-bottom: -10px;r">Mở Thành Viên Máy Chủ</p>
 <p></p>
                 <?php
-                $mysqli = new mysqli("localhost", "root", "", "nro");
+                $mysqli = new mysqli( $_ENV['DB_HOST'], $_ENV['DB_USER'], $_ENV['DB_PASS'], $_ENV['DB_NAME'], $_ENV['DB_PORT'] );
 
                 if ($mysqli->connect_errno) {
                     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;

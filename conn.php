@@ -6,7 +6,7 @@
         $dbname   = "nro";      // Khai báo database
 
 
-        $connect = new mysqli($server, $username, $password, $dbname);
+        $connect = new mysqli( $_ENV['DB_HOST'], $_ENV['DB_USER'], $_ENV['DB_PASS'], $_ENV['DB_NAME'], $_ENV['DB_PORT'] );
         if ($connect->connect_error) {
             die("Không kết nối :" . $connect->connect_error);
         }
