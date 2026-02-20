@@ -49,7 +49,7 @@ include 'connect.php';
             <div class="row bg pb-3 pt-2">
                 <div class="col">
                     <div class="text-center mb-2">
-                        <a href="../dien-dan"><img class="rounded" src="../image/logo.png" id="logo"></a>
+                        <a href="../dien-dan"><img class="rounded" src="../image/unnamed.jpg" id="logo"></a>
                     </div>
                     <div class="text-center pt-2">
                         <div style="display: inline-block;">
