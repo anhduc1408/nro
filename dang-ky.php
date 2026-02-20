@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $stmt->bind_param("s", $recaf);
                     if ($stmt->execute()) {
                         $count++;
-                        $stmt = $conn->prepare("INSERT INTO account (username, password, recaf) VALUES (?, ?, ?)");
+                        $stmt = $conn->prepare("INSERT INTO account (username, password, recaf, is_admin) VALUES (?, ?, ?, 0)");
                         $stmt->bind_param("sss", $username, $password, $recaf);
                         if ($stmt->execute()) {
                             $_alert = '<div class="text-danger pb-2 font-weight-bold">Đăng kí thành công!!</div>';
@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 }
             }
         } else {
-            $stmt = $conn->prepare("INSERT INTO account (username, password) VALUES (?, ?)");
+            $stmt = $conn->prepare("INSERT INTO account (username, password, is_admin) VALUES (?, ?, 0)");
             $stmt->bind_param("ss", $username, $password);
             if ($stmt->execute()) {
                 $_alert = '<div class="text-danger pb-2 font-weight-bold">Đăng kí thành công!!</div>';
@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Ngọc Rồng Green</title>
+    <title>Ngọc Rồng 20</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="description"
@@ -214,7 +214,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
 					<div class="copyright" style="line-height: 7px">
 
-Bản Quyền thuộc về Ngọc Rồng Green
+Bản Quyền thuộc về Ngọc Rồng 20
 
 </div>
                 </div>

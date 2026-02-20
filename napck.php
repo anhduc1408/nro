@@ -5,7 +5,7 @@ include 'connect.php';
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Ngọc Rồng Green</title>
+	<title>Ngọc Rồng 20</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="description"
@@ -153,7 +153,7 @@ include 'connect.php';
 <h5 class="text-danger pt-1">SỐ TÀI KHOẢN:012345678 </a> <img src="image/hot.gif"></h5>
 <h5 class="text-danger pt-2">NGÂN HÀNG: VIETCOMBANK </a> <img src="image/hot.gif"></h5>
 <h5 class="text-danger pt-2">NGƯỜI THỤ HƯỞNG:NGUYỄN HỮU NHẪN </a> <img src="image/hot.gif"></h5>
-<h5 class="text-danger pt-2">NỘI DUNG CHUYỂN:nrogreen + tên nhân vật </a> <img src="image/hot.gif"></h5>
+<h5 class="text-danger pt-2">NỘI DUNG CHUYỂN:nro20 + tên nhân vật </a> <img src="image/hot.gif"></h5>
 <h5 class="text-danger pt-2">LIÊN HỆ ZALO KEY VÀNG VÀ KEY BẠC NHẪN </a> <img src="image/hot.gif"></h5>
 <p> và gửi bill cho hữu nhẫn hoặc hoàng phúc ĐỂ ĐƯỢC DUYỆT NẠP CK </a> <img src="image/hot.gif"></p>
 
@@ -174,7 +174,7 @@ include 'connect.php';
 				</div>
 				<div class="copyright" style="line-height: 7px">
 
-Bản Quyền thuộc về Ngọc Rồng Green
+Bản Quyền thuộc về Ngọc Rồng 20
 
 </div>
 			</div>

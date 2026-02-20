@@ -9,7 +9,7 @@ include('head.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Ngọc Rồng Green</title>
+    <title>Ngọc Rồng 20</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <base href="/">
@@ -61,28 +61,19 @@ include('head.php');
 </tr>
 </thead>
 <tbody>
-<tr style="height: 13px;">
-<td style="height: 13px; width: 106px;">1</td>
-<td style="height: 13px; width: 246.891px; text-align: center;">nrogreen1</td>
-<td style="height: 13px; width: 245.109px; text-align: center;"><span style="color: #ff0000;">còn sử dụng</span></td>
-</tr>
-<tr style="height: 13px;">
-<td style="height: 13px; width: 106px;">2</td>
-<td style="height: 13px; width: 246.891px; text-align: center;">nrogreen2</td>
-<td style="height: 13px; width: 245.109px; text-align: center;"><span style="color: #ff0000;">còn sử dụng</span></td>
-</tr>
-<tr style="height: 13px;">
-<td style="height: 13px; width: 106px;">3</td>
-<td style="height: 13px; width: 246.891px; text-align: center;">nrogreen3</td>
-<td style="height: 13px; width: 245.109px; text-align: center;"><span style="color: #ff0000;">còn sử dụng</span></td>
-</tr>
-<tr style="height: 13px;">
-<td style="height: 13px; width: 106px;">4</td>
-<td style="height: 13px; width: 246.891px; text-align: center;">nrogreen4</td>
-<td style="height: 13px; width: 245.109px; text-align: center;"><span style="color: #ff0000;">còn sử dụng</span></td>
-</tr>
-</tr>
-</tbody>
+                                        <?php
+                                        $query = "SELECT * FROM gift";
+                                        $result = mysqli_query($conn, $query);
+                                        $stt = 1;
+                                        while ($row = mysqli_fetch_assoc($result)) {
+                                        ?>
+                                            <tr style="height: 13px;">
+                                                <td style="height: 13px; width: 106px;"><?php echo $stt++; ?></td>
+                                                <td style="height: 13px; width: 246.891px; text-align: center;"><?php echo $row['name']; ?></td>
+                                                <td style="height: 13px; width: 245.109px; text-align: center;"><span style="color: #ff0000;">còn sử dụng</span></td>
+                                            </tr>
+                                        <?php } ?>
+                                    </tbody>
 </table>
 </div>
 </div></span></div></div></td>
@@ -98,7 +89,7 @@ include('head.php');
                 </div>
 				<div class="copyright" style="line-height: 7px">
 
-Bản Quyền thuộc về Ngọc Rồng Green
+Bản Quyền thuộc về Ngọc Rồng 20
 
 </div>
             </div>

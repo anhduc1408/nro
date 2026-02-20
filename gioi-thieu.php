@@ -5,7 +5,7 @@ include 'connect.php';
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Ngọc Rồng Umi</title>
+	<title>Ngọc Rồng 20</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="description"
@@ -305,11 +305,9 @@ Võ đài lần thứ 23:</li>
                 <div class="col">
                     <div class="text-center">
                         <div style="font-size: 13px" class="text-dark">
-                            <?php
-                        echo $_group;
-                        echo $_fanpage;
-                        echo $_copyright;
-						?>
+                            <div class="copyright" style="line-height: 7px">
+                                Bản Quyền thuộc về Ngọc Rồng 20
+                            </div>
 						</div>
 					</div>
 				</div>

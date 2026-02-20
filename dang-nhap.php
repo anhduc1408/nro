@@ -1,7 +1,7 @@
 <?php
 include_once 'set.php';
 
-$_title = "Ngọc Rồng Green - Đăng Nhập";
+$_title = "Ngọc Rồng 20 - Đăng Nhập";
 if ($_login == null) {
     if (isset($_POST['username'])) {
 
@@ -45,7 +45,7 @@ if ($_login == null) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Ngọc Rồng Gren</title>
+    <title>Ngọc Rồng 20</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="description"
@@ -171,7 +171,7 @@ if ($_login == null) {
                     </div>
 					<div class="copyright" style="line-height: 7px">
 
-Bản Quyền thuộc về Ngọc Rồng Green
+Bản Quyền thuộc về Ngọc Rồng 20
 
 </div>
                 </div>

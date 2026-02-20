@@ -13,7 +13,7 @@ include('head.php');
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Trang Chủ Chính Thức - Ngọc Rồng Green</title>
+    <title>Trang Chủ Chính Thức - Ngọc Rồng 20</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="description"
@@ -399,7 +399,7 @@ include('head.php');
                             </div>
 							<div class="copyright" style="line-height: 7px">
 
-Bản Quyền thuộc về Ngọc Rồng Green
+Bản Quyền thuộc về Ngọc Rồng 20
 
 </div>
                         </div>
@@ -838,7 +838,7 @@ Bản Quyền thuộc về Ngọc Rồng Green
                                             </div>
 											<div class="copyright" style="line-height: 7px">
 
-Bản Quyền thuộc về Ngọc Rồng Green
+Bản Quyền thuộc về Ngọc Rồng 20
 
 </div>
                                         </div>

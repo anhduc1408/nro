@@ -7,16 +7,16 @@ include 'connect.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <base href="">
-    <title>Ngọc Rồng Green</title>
+    <title>Ngọc Rồng 20</title>
     <meta name="description"
-        content="ngocrongumi,ngocrongonline,ngocrongumi.online,7vienngocrong,nro">
+        content="ngocrong20,ngocrongonline,ngocrongumi.online,7vienngocrong,nro">
     <meta name="keywords"
-        content="Ngọc Rồng Umi - Máy Chủ Ngọc Rồng Online Online,ngoc rong mobile, game ngoc rong, game 7 vien ngoc rong, game bay vien ngoc rong">
+        content="Ngọc Rồng 20 - Máy Chủ Ngọc Rồng Online Online,ngoc rong mobile, game ngoc rong, game 7 vien ngoc rong, game bay vien ngoc rong">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title"
-        content="Website chính thức của Ngọc Rồng Umi - Máy Chủ Ngọc Rồng Online Online – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!">
+        content="Website chính thức của Ngọc Rồng 20 - Máy Chủ Ngọc Rồng Online Online – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!">
     <meta name="twitter:description"
-        content="Website chính thức của Ngọc Rồng Umi - Máy Chủ Ngọc Rồng Online Online – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!">
+        content="Website chính thức của Ngọc Rồng 20 - Máy Chủ Ngọc Rồng Online Online – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!">
     <meta name="twitter:image" content="../image/logo.png">
     <meta name="twitter:image:width" content="200">
     <meta name="twitter:image:height" content="200">
