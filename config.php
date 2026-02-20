@@ -1,19 +1,6 @@
 <?php
 include_once 'cauhinh.php';
-$mysqli = mysqli_init();
-
-mysqli_ssl_set($mysqli, NULL, NULL, NULL, NULL, NULL);
-
-$config = mysqli_real_connect(
-    $mysqli,
-    getenv('DB_HOST'),
-    getenv('DB_USER'),
-    getenv('DB_PASS'),
-    getenv('DB_NAME'),
-    (int)getenv('DB_PORT'),
-    NULL,
-    MYSQLI_CLIENT_SSL
-);
+$config = mysqli_connect( $_ENV['DB_HOST'], $_ENV['DB_USER'], $_ENV['DB_PASS'], $_ENV['DB_NAME'], $_ENV['DB_PORT'] );
 if (!$config) {
 	die("KHONG THE KET NOI DEN CSDL ! VUI LONG KIEM TRA LAI");
 } else {
