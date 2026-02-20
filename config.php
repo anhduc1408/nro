@@ -4,7 +4,7 @@ $mysqli = mysqli_init();
 
 mysqli_ssl_set($mysqli, NULL, NULL, NULL, NULL, NULL);
 
-$connected = mysqli_real_connect(
+$config = mysqli_real_connect(
     $mysqli,
     getenv('DB_HOST'),
     getenv('DB_USER'),
